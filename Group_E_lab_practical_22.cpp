@@ -135,7 +135,7 @@ AdjustMinHeap()` functions are responsible for maintaining the heap property (i.
 
 5. The `displayMinMax()` function accesses the maximum and minimum marks by accessing the first elements of the max heap (`maxHeap[1]`) and min heap (`minHeap[1]`), respectively. It then iterates through the heaps to display all the marks.
 
-6. The space complexity of the `getData()` function is O(1) as it does not use any additional data structures that scale with the input size. The only variables used are `numberOfStudent` and `marks`, which are constant in size.
+6. The space complexity of the ` getData() ` function is O(1) as it does not use any additional data structures that scale with the input size. The only variables used are `numberOfStudent` and `marks`, which are constant in size.
 
 7. The `upAdjustMaxHeap()` function is called after inserting an element into the max heap to ensure that the heap property is maintained. If the newly inserted element violates the heap property by being greater than its parent, it performs swaps with its parent until the element is in its correct position in the heap.
 */
